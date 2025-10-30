@@ -15,11 +15,10 @@ dist/
 
 # Large datasets
 # It's generally bad practice to commit large data files.
-# Un-comment the lines below or add your specific data file names.
-# *.csv
-# *.json
-# *.zip
-# *.data
+*.csv
+*.json
+*.zip
+*.data
 
 # Saved models
 # Models can be very large and should not be in Git.
