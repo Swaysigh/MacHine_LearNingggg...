@@ -1,0 +1,42 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+*.env
+
+# Python bytecode and cache
+__pycache__/
+*.pyc
+
+# Python distribution/build files
+build/
+dist/
+*.egg-info/
+
+# Large datasets
+# It's generally bad practice to commit large data files.
+# Un-comment the lines below or add your specific data file names.
+# *.csv
+# *.json
+# *.zip
+# *.data
+
+# Saved models
+# Models can be very large and should not be in Git.
+*.pkl
+*.h5
+*.pth
+*.pb
+*.model
+
+# IDE & Editor configuration
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
